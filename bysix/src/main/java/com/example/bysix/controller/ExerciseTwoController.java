@@ -1,5 +1,4 @@
 package com.example.bysix.controller;
-
 import com.example.bysix.service.ExerciseTwoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;

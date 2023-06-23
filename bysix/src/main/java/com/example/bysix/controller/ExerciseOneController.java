@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
-
 @Controller
 @RestController
 public class ExerciseOneController {
@@ -20,7 +19,6 @@ public class ExerciseOneController {
     public ExerciseOneController(ExerciseOneService exerciseOneService) {
         this.exerciseOneService = exerciseOneService;
     }
-
     @GetMapping("/exerciseone")
     @ResponseStatus(HttpStatus.OK)
     public List<String> printNumbers(@RequestParam(defaultValue = "100") int limit) {
