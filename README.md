@@ -48,6 +48,8 @@ the `/exerciseTwo` root endpoint. all the routes are:
 - `/countries/most-languages` Retur the country with the highest number of official languages
 - `/languages/most-common` Find the most common official language(s), of all countries
 
+Collection of postman is in folder resources
+
 ## Testing:
 
 To run the tests, it is highly recommended to use the maven `clean test` command
