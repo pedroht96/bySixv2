@@ -1,0 +1,154 @@
+{
+  "info": {
+    "_postman_id": "d2960759-bd2a-4b45-b4c7-be5430e22d30",
+    "name": "bysix",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14870818"
+  },
+  "item": [
+    {
+      "name": "ExerciseOne",
+      "item": [
+        {
+          "name": "exerciseone?limit=?",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:8080/exerciseone?limit=15",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "exerciseone"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "15"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "ExerciseTwo",
+      "item": [
+        {
+          "name": "countries",
+          "item": [
+            {
+              "name": "count",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "localhost:8080/exerciseTwo/countries/count",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "exerciseTwo",
+                    "countries",
+                    "count"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "max-german-languages",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "localhost:8080/exerciseTwo/countries/max-german-languages",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "exerciseTwo",
+                    "countries",
+                    "max-german-languages"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "most-languages",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "localhost:8080/exerciseTwo/countries/most-languages",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "exerciseTwo",
+                    "countries",
+                    "most-languages"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "languages",
+          "item": [
+            {
+              "name": "count",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "localhost:8080/exerciseTwo/languages/count",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "exerciseTwo",
+                    "languages",
+                    "count"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "most-common",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "localhost:8080/exerciseTwo/languages/most-common",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "8080",
+                  "path": [
+                    "exerciseTwo",
+                    "languages",
+                    "most-common"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
