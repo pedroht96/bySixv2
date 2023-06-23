@@ -22,7 +22,6 @@ public class ExerciseOneController {
     @GetMapping("/exerciseone")
     @ResponseStatus(HttpStatus.OK)
     public List<String> printNumbers(@RequestParam(defaultValue = "100") int limit) {
-        //TODO: verificar se limit precisa verificação de NOT_ACCEPTABLE
         List<String> numbers = exerciseOneService.processNumbers(limit);
         if (numbers == null || numbers.isEmpty()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
